@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Site Name</title>
+
+  <meta name="description" content="" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="canonical" href="https://www.example.com" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body id="page-body" class="site-wrapper">
+
+  <a href="#page" class="header-skip-link">Skip to Content</a>
+
+  <header class="site-header" id="header" data-test="header">
+    <div class="nav spread">
+
+      <div class="header-title-logo">
+        <a href="/">
+          <h1>site name</h1>
+        </a>
+      </div>
+
+      <div class="header-nav">
+        <div class="header-nav-wrapper">
+          <nav class="header-nav-list">
+            <div class="header-nav-item header-nav-item--active">
+              <a href="/" aria-current="page">home</a>
+            </div>
+            <div class="header-nav-item">
+              <a href="/about">about</a>
+            </div>
+            <div class="header-nav-item">
+              <a href="/connect">connect</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header-actions header-actions--right">
+        <div class="header-actions-action header-actions-action--social">
+          <a class="icon icon--fill header-icon" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+        </div>
+        <div class="language-switcher">
+          <span class="current">fr</span> / <a href="/en/" class="lang-link">en</a>
+        </div>
+      </div>
+
+      <div class="header-burger" data-test="header-burger">
+        <button class="header-burger-btn burger">
+          <span hidden class="visually-hidden">Open Menu</span>
+          <span hidden class="visually-hidden">Close Menu</span>
+          <div class="burger-box">
+            <div class="burger-inner">
+              <div class="top-bun"></div>
+              <div class="patty"></div>
+              <div class="bottom-bun"></div>
+            </div>
+          </div>
+        </button>
+      </div>
+
+    </div>
+
+    <div class="banner-container">
+      <img src="/images/banner.jpg" alt="Site Name" class="site-banner" loading="eager" decoding="async" style="display:block">
+    </div>
+  </header>
+
+  <main id="page" class="page-content container" role="main" aria-label="Content">
+    <div class="w">
+
+      <div class="about spread">
+        Short tagline or description here.
+        <span>Instagram <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">@handle</a></span>
+      </div>
+
+      <h2>Heures</h2>
+      <div class="grid-container grid-three-col">
+        <div class="grid-item">lun.&ndash;sam.</div>
+        <div class="grid-item">8h00 à 20h00</div>
+        <div class="grid-item text-right"><a href="#" target="_blank" rel="noopener noreferrer">menu</a></div>
+        <div class="grid-item">sam.&ndash;dim.</div>
+        <div class="grid-item">9h00 à 18h00</div>
+        <div class="grid-item"></div>
+      </div>
+
+      <h2>Galerie</h2>
+      <div class="gallery gallery-section-wrapper">
+        <div class="gallery-strips gallery-strips--layout-strips">
+          <div class="gallery-strips-wrapper">
+
+            <figure class="gallery-strips-item">
+              <div class="gallery-strips-item-wrapper">
+                <a href="#" class="gallery-strips-lightbox-link">
+                  <img data-src="/images/gallery-1.jpg" alt="Description" data-load="false" />
+                  <span class="visually-hidden">View fullsize</span>
+                </a>
+              </div>
+            </figure>
+
+            <figure class="gallery-strips-item">
+              <div class="gallery-strips-item-wrapper">
+                <a href="#" class="gallery-strips-lightbox-link">
+                  <img data-src="/images/gallery-2.jpg" alt="Description" data-load="false" />
+                  <span class="visually-hidden">View fullsize</span>
+                </a>
+              </div>
+            </figure>
+
+          </div>
+        </div>
+      </div>
+
+      <h2>Événements</h2>
+      <div class="grid-container grid-three-col" id="events-grid" data-lang="fr"></div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="nav spread">
+      <div class="links-link credit">
+        par <a href="#" target="_blank" rel="noopener noreferrer">Studio Name</a>
+      </div>
+      <div class="links-link text-right">
+        questions / commentaires<br>
+        <a href="mailto:info@example.com" target="_blank" rel="noopener noreferrer">info@example.com</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
